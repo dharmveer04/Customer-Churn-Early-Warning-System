@@ -24,3 +24,21 @@ Customer churn directly impacts company revenue. The goal of this project is to 
 
 ## 🎯 Outcome
 The project helps businesses prioritize high-risk customers and reduce potential revenue loss through data-driven retention strategies.
+
+## Power BI Dashboard Preview
+
+### Overview Page
+![Overview](customer_churn_project_screenshots/Overview%20page.png)
+
+### Risk Analysis Page
+![Risk](customer_churn_project_screenshots/Risk%20analysis%20page.png)
+
+### Action Panel Page
+![Action](customer_churn_project_screenshots/Action%20panel%20page.png)
+
+## How to Use This Project
+1. Review SQL queries for churn logic
+2. Explore Python notebook for feature engineering
+3. View Power BI dashboard screenshots for insights
+
+
