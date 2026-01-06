@@ -1,36 +1,26 @@
-md
 # Customer Churn Early Warning System
 
 ## 📌 Project Overview
-This project focuses on identifying early warning signs of customer churn using data analysis techniques.  
-The goal is to help businesses proactively retain customers by understanding churn patterns.
+This project analyzes telecom customer data to identify customers at high risk of churn and estimate potential revenue loss using SQL, Python, and Power BI.
+
+## 🧠 Business Problem
+Customer churn directly impacts company revenue. The goal of this project is to proactively identify high-risk customers so retention teams can take preventive actions.
 
 ## 🛠 Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- SQL (MySQL)
+- SQL (PostgreSQL)
+- Python (Pandas, NumPy)
 - Power BI
-- Jupyter Notebook
 
-## 📂 Project Structure
-- `churn_analysis.ipynb` : Complete data analysis and EDA
-- `sql_queris_of_customer_churn_project.sql` : SQL queries used for analysis
-- `Screenshots/` : Power BI dashboard screenshots
-- Dataset : Customer churn dataset (CSV)
+## 🔄 Project Workflow
+1. Analyzed customer churn patterns using SQL
+2. Cleaned and engineered features using Python
+3. Built a rule-based churn risk scoring system
+4. Designed an interactive Power BI dashboard for decision-making
 
-## 📊 Power BI Dashboard
-### Overview Page
-![Overview](Screenshots/Overview page.png)
-
-### Risk Analysis Page
-![Risk Analysis](Screenshots/Risk analysis page.png)
-
-### Action Panel Page
-![Action Panel](Screenshots/Action panel page.png)
-
-## 🔍 Key Insights
-- Identified high-risk customers based on tenure, contract type, and monthly charges
-- Month-to-month contract customers show higher churn probability
-- Early intervention strategies can significantly reduce churn rate
+## 📊 Key Insights
+- Month-to-month contract customers have the highest churn risk
+- Customers in their first 6 months are more likely to churn
+- High-risk customers contribute the majority of revenue at risk
 
 ## 🎯 Outcome
-This project demonstrates a complete data analysis workflow — from raw data to insights and dashboard visualization — suitable for real-world business decision-making.
+The project helps businesses prioritize high-risk customers and reduce potential revenue loss through data-driven retention strategies.
